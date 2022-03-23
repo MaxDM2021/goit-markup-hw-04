@@ -669,6 +669,7 @@ text-transform: uppercase;
   margin-right: 26px;
   margin-bottom: 30px;
   border: 1px solid #eeeeee;
+  
 }
 
 .site-nav-link:nth-child(3n) {
@@ -678,6 +679,12 @@ text-transform: uppercase;
 .site-nav-link:nth-last-child(-n + 3) {
   margin-bottom: 0px;
 }
+
+.site-nav-link:hover,
+.site-nav-link:focus {
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
 
 /* второй вариант */
 /* 
